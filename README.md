@@ -1,4 +1,7 @@
 # Gamer-Management---CSAC0093
-Gamer Management is the name of our project.
-Honesty is the best policy
-This is our wil project
+The project is Gamer Management.
+And the Team members are :
+Amandeep Kaur     C0744703
+Gurpreet Chahal   C0742780
+Navneet Singh     C0749303
+Karanvir Singh    C0745204
