@@ -1,0 +1,70 @@
+body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	color: white;
+	background-color:black;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 55%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.container h1 {
+	text-align: left;
+	color: orange;
+	margin:0;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.set input {
+	padding: 8px;
+	margin: 4px;
+	width: 600px;
+}
+
+.set a {
+	color: blue;
+}
+
+.btn-cl {
+	display: flex;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
