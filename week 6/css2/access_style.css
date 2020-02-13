@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 100vw;
+	display: flex;
+}
+
+.container .content{
+	width: 85vw;
+}
+
+.container .menu {
+	width: 15vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.container nav{
+	background: #333;
+	color: white;
+	height: 100vh;
+}
+
+.menu .icon {
+	display: flex;
+	margin-left: 35px;
+	
+}
+ 
+.icon i {
+	align-self:center;
+	font-size: 25px;
+}
+
+.menu {
+	margin-top: 50px;
+}
+
+
+.menu a {
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+.container .content {
+	background: black;
+}
+
+.content h1 {
+	color: orange;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.content h2 {
+	color: white;
+	margin: 0px 80px;
+	margin-top: 50px;	
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+.btn_cont {
+	margin: 8px 80px;
+}
+
+.btnApp {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: blue;
+	color: orange;
+	border-radius: 5px;
+	margin-right: -6px;
+	text-decoration: none;
+}
+
+.btnDec {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: orange;
+	border-radius: 5px;
+	margin-right: 60px;
+	text-decoration: none;
+}
+
+
+.btnAdd {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.table{
+	
+	padding : 60px;
+}
+
+.btnEdit{
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+	
+}
+
+.btnViewadmin{
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+	
+}
+
+.btnEditAdmin{
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+	
+}
+
+.btnView{
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+	
+}
+.btnDel{
+display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin-right: 50px;
+	text-decoration: none;
+	
+	
+}
+
+.btn_cont{
+	position: absolute;
+	top: 190px;
+	right: 50px;
+}
+
+.drop_down{
+	display: flex;
+}
+
+.drop_down p {
+	margin-left: 80px;
+	color: white;
+	font-size: 20px;
+}
+
+.drop_down select {
+	margin-left: 15px;
+	padding: 10px;
+	border-radius: 5px; 
+}
+
+.drop_down input {
+	margin-left: 15px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.table {
+	background-color: white;
+	margin-left: 80px;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+.table th, .table tr td {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
