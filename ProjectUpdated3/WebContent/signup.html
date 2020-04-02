@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <title>WIL Project</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="css/style.css" rel="stylesheet">
+   <script src="js/jquery.min.js"></script>
+</head>
+<body class="back-color" onload="captchaCall()">
+
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">  
+     <div class="row">
+     	<div class="col-md-3"></div>
+     	<div class="col-md-6"><h1 class="mt-top-main txt-color">GAMER MANAGEMENT</h1></div>
+     	<div class="col-md-3"></div>
+     </div>
+      <div class="row">
+     	<div class="col-md-3"></div>
+     	<div class="col-md-6">
+     			<form id="signupform" method="post" action="RequestData" class="form-horizontal" role="form">
+                                
+			                                <div class="form-group">
+			                                    <label class="color-white">	Email Address</label>
+			                                     <input type="text" class="form-control" name="email" placeholder="Email Address" required="required">
+			                                 </div>
+			                                    <div class="form-group">
+			                                    <label for="password" class="color-white">Password</label>
+			                                   
+			                                        <input type="password" class="form-control" name="passwd" placeholder="Password" required="required">
+			                                   
+			                                </div>
+			                                 <div class="form-group">
+			                                    <label for="password" class="color-white">Confirm Password</label>
+			                                   
+			                                        <input type="password" class="form-control" name="confpasswd" placeholder="Confirm Password" required="required">
+			                                    
+			                                </div>    
+			                                <div class="form-group">
+			                                    <label for="firstname" class="color-white">First Name</label>
+			                                    
+			                                        <input type="text" class="form-control" name="firstname" placeholder="First Name" required="required">
+			                                   
+			                                </div>
+			                                <div class="form-group">
+			                                    <label for="lastname" class="color-white">Last Name</label>
+			                                   
+			                                        <input type="text" class="form-control" name="lastname" placeholder="Last Name" required="required">
+			                                  
+			                                </div>
+			                             
+			                                <div class="form-group">
+			                                    <label for="date" class="color-white">Date Of Birth</label>
+			                                   
+			                                        <input type="date" class="form-control" name="dob" placeholder="Date Of Birth" required="required">
+			                                   
+			                                </div> 
+			                                   <div class="form-group">
+			                                    <label for="no" class="color-white">Phone Number</label>
+			                                   
+			                                        <input type="number" class="form-control" name="phnumber" placeholder="Phone Number" required="required">
+			                                   
+			                                </div>
+			                                 <div class="form-group">
+			                                    <label for="city" class="color-white">City</label>
+			                                   
+			                                        <input type="text" class="form-control" name="city" placeholder="City" required="required">
+			                                    
+			                                </div> 
+			                           
+                                        <div class="form-group">
+			                                    <label for="icode" class="color-white">Captcha Code</label>
+			                                    	<div class="col-md-6"><p style="border: 2px solid;text-align: center;padding:20px" class="color-white" id="mainCaptchaData"></p></div>
+			                                    	
+			                                   
+			                                      <input onchange ="validCaptchaData()" type="text" id="cpatchaTextBox" class="form-control" name="icode" placeholder="Captcha" required="required">
+			                                   			
+			                                   
+			                                   </div>
+				
+					                                <div class="form-group">
+					                                    <!-- Button -->                                        
+					                                    <div class="col-md-offset-3 col-md-9">
+					                                        <button id="btn-signup" type="submit" class="btn btn-info" name="sign_up"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+					                                        <buttom id="btn-login" class="btn btn-success" ><a class="color-white" href="index.html">Login</a></buttom>
+                                  
+					                                    </div>
+					                                </div>
+                        				
+                                
+                        
+                                
+                                
+                                
+                            </form>
+     	
+     	
+     	
+     	
+     	
+     	
+     	</div>
+     	<div class="col-md-3"></div>
+     </div>
+     
+      	
+    </div>
+    
+</body>
+</html>
